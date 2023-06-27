@@ -1,0 +1,97 @@
+        body {
+            background-color: #F5F6F7;
+            font-size: 14px;
+            color: #222;
+            line-height: 1.5em;
+            margin: 0;
+        }
+        .member {
+            /* border: 1px solid #000; */
+            width: 900px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .member .logo {
+            display: block;
+            margin: 50px auto;
+        }
+        .member .field.time {
+            /* border: 1px solid red; */
+            margin-bottom: 5px;
+        }
+        .member input:not(input[type="radio"]), .member select {
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #dadada;
+            margin-bottom: 5px;
+        }
+        .field.choice div {
+            border: 1px solid #dadada;
+            padding: 15px;
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+        input[type=radio] {
+            accent-color:#318234;
+        }
+        .field.date article {
+            display: flex;
+            gap: 10px;
+        }
+        .field.date button {
+            flex: 1;
+            background-color: #ffffff;
+            border: 1px solid #dadada;
+            margin-bottom: 5px;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .field.search article {
+            display: flex;
+            gap: 10px;
+        }
+        .field.search button,
+        .field.search input,
+        .field.search select {
+            flex: 1;
+            background-color: #ffffff;
+            border: 1px solid #dadada;
+            margin-bottom: 5px;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .field.search button:hover,
+        .field.date button:hover {
+            background-color: #318234;
+            color: white;
+        }
+        .result button {
+            flex: 1;
+            background-color: #318234;
+            border: 1px solid #dadada;
+            color: white;
+            margin-bottom: 5px;
+            padding: 15px;
+            cursor: pointer;
+        }
+        .result button:hover {
+            background-color: rgb(191, 109, 61);
+            color: white;
+        }
+        .placehold-text {
+            /* border: 1px solid #000; */
+            position: relative;
+            display: block;
+        }
+        .datepicker {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+        }
